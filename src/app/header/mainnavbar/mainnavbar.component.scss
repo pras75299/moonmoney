@@ -1,0 +1,16 @@
+.bg-white{
+    background: #fff !important;
+}
+.bottom-navbar {
+    font-size: 16px;
+}
+.logosize-custom{
+    width: 60px;
+}
+
+
+@media(max-width:767px){
+    .navbar-nav.text-right {
+        text-align: left !important;
+    }
+}

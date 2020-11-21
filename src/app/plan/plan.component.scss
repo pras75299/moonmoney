@@ -1,0 +1,67 @@
+.plan-main{
+    width: 100%;
+    margin:0 auto;
+    padding: 30px 0px;
+    background-color: #bfeaf7;
+    border-top: solid 2px #08538c;
+    min-height: 450px;
+}
+
+
+.heading-plan{
+    color: #000;
+    font-size: 28px;
+    padding: 15px 0px;
+    span{
+        color: #2196f3;
+    }
+}
+
+.rightside-card{
+    background: #fff;
+    padding: 40px 30px;
+    border: solid 18px #08538c;
+    max-height: 496px;
+    margin-bottom: 15px;
+}
+.headingright-card{
+    font-weight: 600;
+    font-size: 40px;
+    color: #08538c;
+    text-align: center;
+    margin: 0px 0px 15px 0px;
+}
+
+.para-card{
+    line-height: 30px;
+    color: #000;
+    font-weight: 500;
+    font-size: 16px;
+}
+.top_hed_tab {
+    background-color: #08538c;
+    color: #fff;
+    padding: 17px!important;
+}
+.busi th {
+    text-align: center;
+    font-size: 15px!important;
+    background-color: #2196f3!important;
+    color: #fff!important;
+}
+.busi td {
+    text-align: center;
+    font-size: 16px!important;
+    border: solid 1px #2196f3!important;
+    border-bottom: transparent!important;
+    font-weight: 600;
+}
+
+.rate_bot {
+    padding: 10px;
+    width: 100%;
+    text-align: right;
+    background-color: #165a8e;
+    font-weight: 600;
+    color: #fff!important;
+}

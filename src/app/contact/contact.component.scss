@@ -1,0 +1,38 @@
+.contact-main{
+    width: 100%;
+    margin:0 auto;
+    padding: 30px 0px;
+    background-color: #bfeaf7;
+    border-top: solid 2px #08538c;
+    min-height: 450px;
+}
+
+
+.heading-contact{
+    color: #000;
+    font-size: 28px;
+    padding: 15px 0px;
+    span{
+        color: #2196f3;
+    }
+}
+
+.contact-card{
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 3px;
+    border: solid 3px #e09f6d;
+
+    h2{
+        text-align: center;
+        font-weight: bold;
+        font-size: 23px;
+        color: #08538c;
+    }
+
+    p{        
+    color: #000;
+    font-weight: 500;
+    font-size: 15px;
+    }
+}

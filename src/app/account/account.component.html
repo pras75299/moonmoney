@@ -1,0 +1,28 @@
+<section class="account-main">
+    <div class="container">
+      <h1 class="heading-account text-center">
+          Our 
+        <span>Account Details</span>
+      </h1>
+      <table *ngFor="let details of accountDetail" class="table col-md-6 mx-auto justify-content-center bg-light">
+        <tr>
+          <td>Account Name</td>
+          <td>{{details.accountname}}</td>
+        </tr>
+        <tr>
+          <td>Account Number</td>
+          <td>{{details.accountnumber}}</td>
+        </tr>
+        <tr>
+          <td>IFSC Code</td>
+          <td>{{details.ifsccode}}</td>
+        </tr>
+        <tr>
+          <td>Branch</td>
+          <td>{{details.branch}}</td>
+        </tr>
+      </table>
+    </div>
+  </section>
+
+<app-footer></app-footer>

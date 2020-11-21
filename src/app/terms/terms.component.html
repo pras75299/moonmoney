@@ -1,0 +1,16 @@
+<section class="terms-main">
+  <div class="container">
+    <h1 class="heading-terms text-center">
+        Our
+      <span>Terms & Conditions</span>
+    </h1>
+    <ul class="terms col-md-8 mx-auto">
+      <li *ngFor="let details of termsdetails">
+        <span><i class="fas fa-check"></i></span> {{details.term}}
+      </li>
+    </ul>
+    
+  </div>
+</section>
+
+<app-footer></app-footer>

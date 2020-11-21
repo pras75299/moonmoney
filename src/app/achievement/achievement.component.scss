@@ -1,0 +1,36 @@
+.achievement-main{
+    width: 100%;
+    margin:0 auto;
+    padding: 30px 0px;
+    background-color: #bfeaf7;
+    border-top: solid 2px #08538c;
+    min-height: 450px;
+}
+
+
+.heading-achievement{
+    color: #000;
+    font-size: 28px;
+    padding: 15px 0px;
+    span{
+        color: #2196f3;
+    }
+}
+
+.box-achi{    
+    background: #fff;
+    padding: 20px;
+    margin: 10px 15px;
+    border-radius: 15px;
+    border: solid 2px #08538c;
+    box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11), 0 5px 15px 0 rgba(0,0,0,0.08);
+    max-height: 230px;
+    min-height: 230px;
+
+    h3{
+        color: #2196f3;
+        font-weight: 600;
+        font-size: 20px;
+        margin: 15px 0px;
+    }
+}

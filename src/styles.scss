@@ -1,1 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
+@import"~bootstrap/dist/css/bootstrap.css";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html{
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+}
+
+$widthfull: 100%;
+$margin-auto: 0 auto;
